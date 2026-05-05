@@ -93,7 +93,7 @@ acc-repo/
 
 ```bash
 # 1. Set your project
-export GCP_PROJECT="your-gcp-project-id"
+export GCP_PROJECT=acc-info520-roshan
 export GCP_REGION="us-central1"
 
 # 2. Bootstrap GCP (enables APIs, creates service account, makes Firestore DB)
@@ -171,7 +171,7 @@ The rubric asks for a screenshot of a single user request flowing Orchestrator �
 4. In your local terminal you'll see the agent-side logs: `[USER]`, `[A2A HANDOFF →]`, `[MCP CALL]`, `[A2A HANDOFF ←]`, `[ASSISTANT]`.
 5. Take a single screenshot showing the agent terminal alongside the Cloud Logging panel — that demonstrates the full request flow with timestamps.
 
-Save the screenshot as `docs/system_trace.png`.
+Save the screenshot as `docs/system_trace.jpeg`.
 
 ---
 
